@@ -1,4 +1,4 @@
-package com.example.woodstock.holaworld;
+package com.example.rkapodaca.acelerometro;
 
 import android.app.Activity;
 import android.content.Context;
