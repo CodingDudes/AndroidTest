@@ -67,6 +67,17 @@
         android:text="0.0"
         android:textSize="20dp" />
 
+
+    <TextView
+        android:id="@+id/txtRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:text="PRUEBA:"
+        android:textSize="20dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -75,6 +86,7 @@
         android:layout_marginTop="30dp"
         android:text="Current Acceleration:"
         android:textSize="20dp" />
+
 
     <LinearLayout
         android:layout_width="match_parent"

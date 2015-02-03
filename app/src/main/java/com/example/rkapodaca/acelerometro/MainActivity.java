@@ -7,6 +7,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.os.Vibrator;
 import android.widget.TextView;
 
@@ -28,7 +29,7 @@ public class MainActivity extends Activity implements SensorEventListener {
 
     private float vibrateThreshold = 0;
 
-    private TextView currentX, currentY, currentZ, maxX, maxY, maxZ;
+    private TextView currentX, currentY, currentZ, maxX, maxY, maxZ, txtRandom;
 
     public Vibrator v;
 
@@ -63,6 +64,8 @@ public class MainActivity extends Activity implements SensorEventListener {
         maxX = (TextView) findViewById(R.id.maxX);
         maxY = (TextView) findViewById(R.id.maxY);
         maxZ = (TextView) findViewById(R.id.maxZ);
+
+        txtRandom = (TextView) findViewById(R.id.txtRandom);
     }
 
     //onResume() register the accelerometer for listening the events
@@ -111,6 +114,7 @@ public class MainActivity extends Activity implements SensorEventListener {
         lastZ = event.values[2];
 
         vibrate();
+        startRandom();
 
     }
 
@@ -148,6 +152,29 @@ public class MainActivity extends Activity implements SensorEventListener {
         if (deltaZ > deltaZMax) {
             deltaZMax = deltaZ;
             maxZ.setText(Float.toString(deltaZMax));
+        }
+    }
+
+
+    public void startRandom() {
+        if ((deltaX > vibrateThreshold) || (deltaY > vibrateThreshold) || (deltaZ > vibrateThreshold)) {
+
+            new CountDownTimer(12000, 1000) {
+                public void onTick(long millisUntilFinished) {
+
+                    //global.toast.setText("Automatic Refresh In: " + millisUntilFinished / 1000);
+                    //global.toast.show();
+                    txtRandom.setText((String.valueOf(millisUntilFinished)));
+                }
+
+                public void onFinish() {
+                    txtRandom.setText(String.valueOf("Termino"));
+                    finish();
+
+                    // startActivity(new Intent(main_activity.this, main_activity.class));
+                }
+            }.start();
+
         }
     }
 }
