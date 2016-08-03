@@ -159,7 +159,7 @@ public class MainActivity extends Activity implements SensorEventListener {
     public void startRandom() {
         if ((deltaX > vibrateThreshold) || (deltaY > vibrateThreshold) || (deltaZ > vibrateThreshold)) {
 
-            new CountDownTimer(12000, 1000) {
+            new CountDownTimer(120000, 10000) {
                 public void onTick(long millisUntilFinished) {
 
                     //global.toast.setText("Automatic Refresh In: " + millisUntilFinished / 1000);
@@ -168,7 +168,7 @@ public class MainActivity extends Activity implements SensorEventListener {
                 }
 
                 public void onFinish() {
-                    txtRandom.setText(String.valueOf("Termino"));
+                    txtRandom.setText(String.valueOf("Finish"));
                     finish();
 
                     // startActivity(new Intent(main_activity.this, main_activity.class));

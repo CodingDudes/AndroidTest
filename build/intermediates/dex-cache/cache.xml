@@ -2,32 +2,40 @@
 <items version="2" >
 
     <item
-        jar="/Users/rkapodaca/AndroidStudioProjects/Acelerometro/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        is-multidex="false"
+        jar="/Users/rkapodaca/Development/AndroidStudioProjects/CodingDudes/Acelerometro/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
+        optimize="false"
         revision="21.1.2"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/rkapodaca/AndroidStudioProjects/Acelerometro/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-d2868194d5f1124b33f7ca9128283a649860f66a.jar" />
+        <dex dex="/Users/rkapodaca/Development/AndroidStudioProjects/CodingDudes/Acelerometro/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_fe28869d52a4094a6209b87a2a1e1883b81b020e.jar" />
     </item>
     <item
-        jar="/Users/rkapodaca/AndroidStudioProjects/Acelerometro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        is-multidex="false"
+        jar="/Users/rkapodaca/Library/Android/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/Users/rkapodaca/AndroidStudioProjects/Acelerometro/app/build/intermediates/pre-dexed/debug/classes-8b7d4c0453d9284c5093a5abee6b8c939d92f585.jar" />
-    </item>
-    <item
-        jar="/Users/rkapodaca/Development/Android/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
+        optimize="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/rkapodaca/AndroidStudioProjects/Acelerometro/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-c6ea884920e20addcb132f7041798d62bae09cf0.jar" />
+        <dex dex="/Users/rkapodaca/Development/AndroidStudioProjects/CodingDudes/Acelerometro/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_127651266ad21c6405f70f14d5b9e4de3773ff6d.jar" />
     </item>
     <item
-        jar="/Users/rkapodaca/AndroidStudioProjects/Acelerometro/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        is-multidex="false"
+        jar="/Users/rkapodaca/Development/AndroidStudioProjects/CodingDudes/Acelerometro/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
         jumboMode="false"
+        optimize="false"
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/rkapodaca/AndroidStudioProjects/Acelerometro/app/build/intermediates/pre-dexed/debug/classes-af24f7d0cd2fb0c68d3df17ff04b2cd0abe6bd16.jar" />
+        <dex dex="/Users/rkapodaca/Development/AndroidStudioProjects/CodingDudes/Acelerometro/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_12c6c1968389546f6ca8c1fd66441e94e35cca48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/rkapodaca/Development/AndroidStudioProjects/CodingDudes/Acelerometro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/rkapodaca/Development/AndroidStudioProjects/CodingDudes/Acelerometro/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-21.0.3_dfcb2de40009242161a68545c0cdc1df826a1fc7.jar" />
     </item>
 
 </items>
